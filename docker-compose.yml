@@ -2,7 +2,7 @@ version: '2'
 
 services:
  Serveur-V-1-19:
-  image: mc-serveur/jonathandumcode
+  image: jonathandumcode/mc-serveur
   # restart: always
   volumes:
    - ./serveur/V-1-19:/server
