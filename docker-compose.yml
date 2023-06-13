@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+ Serveur-V-1-19:
+  image: mc-serveur/jonathandumcode
+  # restart: always
+  volumes:
+   - ./serveur/V-1-19:/server
+  ports:
+   - 25565:25565
+   - 25575:25575
